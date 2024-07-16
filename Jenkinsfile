@@ -27,5 +27,10 @@ pipeline {
                 echo 'Code Security'
             }
         }
+        stage('Deploy') {
+            steps {
+               echo 'Deploy'
+            }
+        }
     }
 }
