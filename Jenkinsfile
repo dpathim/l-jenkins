@@ -32,9 +32,9 @@ pipeline {
                echo 'Deploy'
             }
         }
-        stage('Deploy') {
+        stage('app Deploy') {
             steps {
-               echo 'Deploy'
+               echo ' app Deploy'
             }
         }
     }
