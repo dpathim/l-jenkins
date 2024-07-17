@@ -1,10 +1,12 @@
 pipeline {
-    agent any
+    //agent any
+    agent { node { label 'workstation1' } }
 
     stages {
         stage('Code') {
             steps {
-                echo 'Code'
+                echo 'Hello world'
+                error 'This is an error'
             }
         }
 
