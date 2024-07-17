@@ -7,35 +7,6 @@ pipeline {
                 echo 'Code'
             }
         }
-        stage('compile') {
-            steps{
-                echo "compile"
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Test'
-            }
-        }
-        stage('Code Quality') {
-            steps {
-                echo 'Code Quality'
-            }
-        }
-        stage('Code security') {
-            steps {
-                echo 'Code Security'
-            }
-        }
-        stage('Deploy') {
-            steps {
-               echo 'Deploy'
-            }
-        }
-        stage('app Deploy') {
-            steps {
-               echo ' app Deploy'
-            }
-        }
+
     }
 }
